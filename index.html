@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kent的部落格</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <style>
+      :root {
+        --bs-font-sans-serif:
+          system-ui, -apple-system, "Microsoft JhengHei UI", BlinkMacSystemFont,
+          "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      }
+
+      .ocean-hero {
+        min-height: 360px;
+        border-radius: 0.75rem;
+        background-image:
+          linear-gradient(rgba(9, 17, 31, 0.72), rgba(6, 13, 24, 0.84)),
+          url("https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1600&q=80");
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="py-3 text-center border-bottom">
+        <a href="#" class="h2 link-dark text-decoration-none">Kent的部落格</a>
+      </header>
+
+      <div class="overflow-auto no-flex">
+        <nav class="d-flex flex-nowrap text-nowrap justify-content-between">
+          <a href="#" class="nav-link link-secondary">HTML</a>
+          <a href="#" class="nav-link link-secondary">CSS</a>
+          <a href="#" class="nav-link link-secondary">Bootstrap</a>
+          <a href="#" class="nav-link link-secondary">Tailwind</a>
+          <a href="#" class="nav-link link-secondary">JavaScript</a>
+          <a href="#" class="nav-link link-secondary">Vue</a>
+          <a href="#" class="nav-link link-secondary">React</a>
+          <a href="#" class="nav-link link-secondary">Node.js</a>
+          <a href="#" class="nav-link link-secondary">雲端</a>
+        </nav>
+      </div>
+
+      <section
+        class="ocean-hero mt-4 mb-4 d-flex align-items-center justify-content-center text-center text-white rounded-3"
+      >
+        <div class="px-3">
+          <h1 class="display-4 fw-bold fw-italic">前後端的技術<br />好像海洋一樣深邃</h1>
+          <p class="lead">所以成為軟體工程師是很辛苦的。</p>
+          <a href="#" class="lead link-light text-decoration-none">繼續閱讀</a>
+        </div>
+      </section>
+
+      <div class="row row-cols-1 row-cols-lg-2 mb-4">
+        <div class="col">
+          <div class="card row g-0 flex-row h-100">
+            <div class="col p-4">
+              <strong class="d-inline-block mb-2 text-primary">HTML</strong>
+              <h3 class="mb-0">響應式網頁</h3>
+              <div class="mb1 text-muted datetime">2026-03-12</div>
+              <p class="card-text mb-auto">
+                探索響應式網頁設計的奧秘，打造適合各種裝置的網站。
+              </p>
+              <a href="#" class="mb-auto">繼續閱讀</a>
+            </div>
+            <div
+              class="col-4 p-4 d-none d-lg-block"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1600&q=80&quot;);
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card row g-0 flex-row h-100">
+            <div class="col p-4">
+              <strong class="d-inline-block mb-2 text-primary">Bootstrap</strong>
+              <h3 class="mb-0">響應式設計框架</h3>
+              <div class="mb1 text-muted datetime">2026-03-12</div>
+              <p class="card-text mb-auto">
+                探索Bootstrap的強大功能，快速構建美觀且響應式的網站。
+              </p>
+              <a href="#" class="mb-auto">繼續閱讀</a>
+            </div>
+            <div
+              class="col-4 p-4 d-none d-lg-block"
+              style="
+                background-image: url(&quot;https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1600&q=80&quot;);
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-md-5">
+        <div class="col-md-8">
+          <article>
+            <h2>軟體工程師體驗營作品</h2>
+            <p class="datetime">2026-03-12</p>
+            <p class="text-align-justify">
+              去年的軟體工程師體驗營已經結束了，這是我在體驗營中完成的<a href="https://kentlee406.github.io/PersonalWebSite_HW/">作品</a>。希望大家喜歡我的作品！
+            </p>
+            <img
+              src="https://images.unsplash.com/photo-1505118380757-91f5f5632de0?auto=format&fit=crop&w=1600&q=80"
+              alt="文章圖片"
+              class="img-fluid mb-3"
+            />
+          </article>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+          <div class="sticky-top"><div class="p-4 bg-light rounded">
+            <h3>關於我</h3>
+            我目前是一位軟體工程師，專注於ERP系統的開發與維護。我熱愛學習新技術，並且喜歡分享我的知識和經驗。希望透過這個部落格，能夠與更多人交流和成長。
+          </div>
+          <h3 class="mt-4">封存</h3>
+          <ol class="list-unstyled">
+            <li><a href="#">2026年1月</a></li>
+            <li><a href="#">2026年2月</a></li>
+            <li><a href="#">2026年3月</a></li>
+            <li><a href="#">2026年4月</a></li>
+            <li><a href="#">2026年5月</a></li>
+            <li><a href="#">2026年6月</a></li>
+            <li><a href="#">2026年7月</a></li>
+            <li><a href="#">2026年8月</a></li>
+            <li><a href="#">2026年9月</a></li>
+            <li><a href="#">2026年10月</a></li>
+          </ol>
+          <h3 class="mt-4">追蹤我</h3>
+          <ol class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Thread</a></li></div>
+          
+        </div>
+      </div>
+    </div>
+    <footer class="bg-light text-center py-4 mt-4">
+      <p>Bootstrap 5 部落格練習作業</p>
+      <a href="#">Top</a>
+    </footer>
+  </body>
+</html>
